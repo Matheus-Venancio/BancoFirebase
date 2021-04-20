@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BancoFirebase</string>
+    <string name="hintNome">Digite o nome</string>
+    <string name="hintSobrenome">Digite o sobrenome</string>
+    <string name="hintIdade">Informe a idade</string>
+    <string name="hintPeso">Informe o peso</string>
+    <string name="hintAltura">Informe a altura</string>
+    <string name="btCadastrar">Cadastro padrão</string>
+    <string name="btCadastroChave">CADASTRO COM CHAVE</string>
+    <string name="btBuscarTodos">BUSCAR TODOS</string>
+    <string name="btBuscarChave">BUSCAR COM CHAVE</string>
+    <string name="btRemover">REMOVER</string>
+</resources>

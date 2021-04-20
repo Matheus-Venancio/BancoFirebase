@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.voltaaulas.MainActivity" >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/hintNome"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edSobrenome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintSobrenome"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edNome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edNome"
+        app:layout_constraintTop_toBottomOf="@+id/edNome" />
+
+    <EditText
+        android:id="@+id/edIdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintIdade"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/edSobrenome"
+        app:layout_constraintStart_toStartOf="@+id/edSobrenome"
+        app:layout_constraintTop_toBottomOf="@+id/edSobrenome" />
+
+    <EditText
+        android:id="@+id/edPeso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintPeso"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/edIdade"
+        app:layout_constraintStart_toStartOf="@+id/edIdade"
+        app:layout_constraintTop_toBottomOf="@+id/edIdade" />
+
+    <EditText
+        android:id="@+id/edAltura"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintAltura"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/edPeso"
+        app:layout_constraintStart_toStartOf="@+id/edPeso"
+        app:layout_constraintTop_toBottomOf="@+id/edPeso" />
+
+    <Button
+        android:id="@+id/btCadastro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btCadastrar"
+        app:layout_constraintEnd_toEndOf="@+id/edAltura"
+        app:layout_constraintStart_toStartOf="@+id/edAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edAltura" />
+
+    <Button
+        android:id="@+id/btBuscarTodos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:text="@string/btBuscarTodos"
+        app:layout_constraintEnd_toEndOf="@+id/edAltura"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edAltura" />
+
+    <Button
+        android:id="@+id/btBuscarChave2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="@string/btBuscarChave"
+        app:layout_constraintEnd_toEndOf="@+id/edAltura"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edAltura" />
+
+    <Button
+        android:id="@+id/btRemover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:text="@string/btRemover"
+        app:layout_constraintEnd_toEndOf="@+id/edAltura"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edAltura" />
+
+    <Button
+        android:id="@+id/btCadastroChave2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/btCadastroChave"
+        app:layout_constraintEnd_toEndOf="@+id/edAltura"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edAltura" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

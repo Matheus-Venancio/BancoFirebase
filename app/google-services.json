@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "287103230",
+    "project_id": "fir-3dsa-25bdf",
+    "storage_bucket": "fir-3dsa-25bdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287103230:android:177fe337dec8b83c83edaf",
+        "android_client_info": {
+          "package_name": "com.example.voltaaulas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287103230-2hpvdicnk7tb4flngp4j4phvj98bv6sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSaE22zBIvvBqMDYDhcwlhHPMW2tMhzV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287103230-2hpvdicnk7tb4flngp4j4phvj98bv6sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287103230:android:eabf54869cbf8b2283edaf",
+        "android_client_info": {
+          "package_name": "gaspar.aulas.bancofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287103230-2hpvdicnk7tb4flngp4j4phvj98bv6sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSaE22zBIvvBqMDYDhcwlhHPMW2tMhzV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287103230-2hpvdicnk7tb4flngp4j4phvj98bv6sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
